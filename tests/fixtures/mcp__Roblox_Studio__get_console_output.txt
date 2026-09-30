@@ -1,0 +1,8 @@
+[Roblox][sabuiltin_Assistant.rbxm.Assistant.Packages._Index.AssistantUI.AssistantUI.Actions.ExecuteLuauActions] The execute_luau changed camera type. Resetting from Enum.CameraType.Scriptable back to Enum.CameraType.Custom
+DataStore request was added to queue. If request queue fills, further requests will be dropped. Try sending fewer requests.Key = p1234567
+Players.Player1.PlayerScripts.ParkourController:1238: attempt to call a number value
+Stack Begin
+Script 'Players.Player1.PlayerScripts.ParkourController', Line 1238 - function tryLedgeHop
+Script 'Players.Player1.PlayerScripts.ParkourController', Line 3469
+Stack End
+DataStore request was added to queue. If request queue fills, further requests will be dropped. Try sending fewer requests.Key = p1234567

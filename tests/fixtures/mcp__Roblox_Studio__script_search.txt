@@ -1,0 +1,8 @@
+Name: ParkourControllerLegacy | Type: LocalScript | Path: Players.Player1.PlayerScripts.ParkourControllerLegacy
+Name: ParkourController | Type: LocalScript | Path: Players.Player1.PlayerScripts.ParkourController
+Name: IntroParkourClient | Type: LocalScript | Path: Players.Player1.PlayerScripts.IntroParkourClient
+Name: ParkourControllerLegacy | Type: LocalScript | Path: StarterPlayer.StarterPlayerScripts.ParkourControllerLegacy
+Name: ParkourController | Type: LocalScript | Path: StarterPlayer.StarterPlayerScripts.ParkourController
+Name: IntroParkourClient | Type: LocalScript | Path: StarterPlayer.StarterPlayerScripts.IntroParkourClient
+Name: ParkourConfig | Type: ModuleScript | Path: ReplicatedStorage.ParkourConfig
+Name: ParkourJanitor | Type: ModuleScript | Path: ReplicatedStorage.ParkourJanitor

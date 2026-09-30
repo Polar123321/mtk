@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" role="img" aria-labelledby="t d">
+  <title id="t">MTK — token killer for every tool output</title>
+  <desc id="d">MTK compresses the output of shell, MCP, Roblox Studio and grep tools before an AI agent reads it.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1020"/>
+      <stop offset="1" stop-color="#111a2e"/>
+    </linearGradient>
+    <linearGradient id="ink" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7ee787"/>
+      <stop offset="0.55" stop-color="#2dd4bf"/>
+      <stop offset="1" stop-color="#60a5fa"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.85" cy="0.1" r="0.7">
+      <stop offset="0" stop-color="#2dd4bf" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#2dd4bf" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity="0.035"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="340" rx="22" fill="url(#bg)"/>
+  <rect width="1200" height="340" rx="22" fill="url(#grid)"/>
+  <rect width="1200" height="340" rx="22" fill="url(#glow)"/>
+  <rect x="0.5" y="0.5" width="1199" height="339" rx="21.5" fill="none" stroke="#ffffff" stroke-opacity="0.09"/>
+
+  <text x="64" y="150" font-family="'Segoe UI','SF Pro Display',Inter,Arial,sans-serif" font-size="128" font-weight="800" letter-spacing="-4" fill="url(#ink)">MTK</text>
+  <text x="68" y="206" font-family="'Segoe UI','SF Pro Display',Inter,Arial,sans-serif" font-size="30" font-weight="600" fill="#e6edf3">Every tool output. Far fewer tokens.</text>
+  <text x="68" y="240" font-family="'Cascadia Code',Consolas,Menlo,monospace" font-size="17" fill="#8b98a9">shell · MCP · Roblox Studio · grep · big files — one Rust binary</text>
+
+  <g font-family="'Segoe UI','SF Pro Display',Inter,Arial,sans-serif">
+    <g transform="translate(700 70)">
+      <rect width="440" height="66" rx="14" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.10"/>
+      <text x="22" y="46" font-size="38" font-weight="800" fill="#7ee787">−87%</text>
+      <text x="150" y="30" font-size="17" font-weight="600" fill="#e6edf3">Roblox game tree</text>
+      <text x="150" y="51" font-size="14" fill="#8b98a9">2,126 → 279 tokens · real capture</text>
+    </g>
+    <g transform="translate(700 150)">
+      <rect width="440" height="66" rx="14" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.10"/>
+      <text x="22" y="46" font-size="38" font-weight="800" fill="#2dd4bf">−98%</text>
+      <text x="150" y="30" font-size="17" font-weight="600" fill="#e6edf3">300-line build log</text>
+      <text x="150" y="51" font-size="14" fill="#8b98a9">through the real hook, in the model's view</text>
+    </g>
+    <g transform="translate(700 230)">
+      <rect width="440" height="66" rx="14" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.10"/>
+      <text x="22" y="46" font-size="38" font-weight="800" fill="#60a5fa">−63%</text>
+      <text x="150" y="30" font-size="17" font-weight="600" fill="#e6edf3">Reading a 3,873-line file</text>
+      <text x="150" y="51" font-size="14" fill="#8b98a9">measured with the API's real usage</text>
+    </g>
+  </g>
+</svg>

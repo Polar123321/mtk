@@ -1,0 +1,43 @@
+============================= test session starts =============================
+collected 251 items
+
+tests/test_mod0.py ..........  [ 4%]
+tests/test_mod1.py ..........  [ 8%]
+tests/test_mod2.py ..........  [ 12%]
+tests/test_mod3.py ..........  [ 15%]
+tests/test_mod4.py ..........  [ 19%]
+tests/test_mod5.py ..........  [ 23%]
+tests/test_mod6.py ..........  [ 27%]
+tests/test_mod7.py ..........  [ 31%]
+tests/test_mod8.py ..........  [ 35%]
+tests/test_mod9.py ..........  [ 38%]
+tests/test_mod10.py ..........  [ 42%]
+tests/test_mod11.py ..........  [ 46%]
+tests/test_mod12.py ..........  [ 50%]
+tests/test_mod13.py ..........  [ 54%]
+tests/test_mod14.py ..........  [ 58%]
+tests/test_mod15.py ..........  [ 62%]
+tests/test_mod16.py ..........  [ 65%]
+tests/test_mod17.py ..........  [ 69%]
+tests/test_mod18.py ..........  [ 73%]
+tests/test_mod19.py ..........  [ 77%]
+tests/test_mod20.py ..........  [ 81%]
+tests/test_mod21.py ..........  [ 85%]
+tests/test_mod22.py ..........  [ 88%]
+tests/test_mod23.py ..........  [ 92%]
+tests/test_mod24.py ..........  [ 96%]
+tests/test_api.py .......F.                                             [100%]
+
+================================== FAILURES ===================================
+_______________________________ test_create_user ______________________________
+
+    def test_create_user():
+        user = create_user("ana")
+>       assert user.id == 42
+E       assert 7 == 42
+E        +  where 7 = User(id=7, name='ana').id
+
+tests/test_api.py:31: AssertionError
+=========================== short test summary info ===========================
+FAILED tests/test_api.py::test_create_user - assert 7 == 42
+======================== 1 failed, 250 passed in 4.21s ========================
